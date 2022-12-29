@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Bubbler+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+body{
+    background-color: #ffccd5;
+}
+
+:root{
+    --basic--text--color:#000000;
+    --line--color: #6c757d;
+    --navbar--font: 'Titan One', cursive;
+    --title--home--page:'Seaweed Script', cursive;
+    --sub--text--home--page:'Bubbler One';
+    --btn-background--color:#495057;
+    --about--hello--font:'Shadows Into Light', cursive;
+
+}
+
+.editCocktailImg{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.NavbarItam>a{
+    text-decoration: none;
+    color: var(--btn-background--color);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
